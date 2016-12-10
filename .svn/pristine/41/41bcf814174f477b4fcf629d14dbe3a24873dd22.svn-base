@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'HiShopping' do
+   pod 'Alamofire'
+   pod 'SnapKit'
+   pod 'SDWebImage'
+   pod 'SDCycleScrollView'
+   pod 'KNSemiModalViewController'
+   pod 'XLPagerTabStrip'
+   pod 'Popover'
+   pod 'MWPhotoBrowser'
+   pod 'IQKeyboardManagerSwift'
+   pod 'SwiftyJSON'
+   pod 'HandyJSON'
+   pod 'MMDrawerController', '~> 0.5.7'
+end

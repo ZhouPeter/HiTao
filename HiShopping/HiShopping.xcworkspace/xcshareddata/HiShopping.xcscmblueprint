@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "410612B1C2943C728C285C0C1289DE604F4B2105",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : {
+
+    },
+    "410612B1C2943C728C285C0C1289DE604F4B2105" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : 9223372036854775807,
+    "410612B1C2943C728C285C0C1289DE604F4B2105" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D3A4C6CB-6473-4808-ABD0-465E45C54475",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : "..\/work\/WGZ\/WeSalary_Swift3.0",
+    "410612B1C2943C728C285C0C1289DE604F4B2105" : "HiTao\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HiShopping",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HiShopping\/HiShopping.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.89\/svn\/APPdemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "410612B1C2943C728C285C0C1289DE604F4B2105"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/kevin.chen@122.227.209.178:8889\/svn\/WX_IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575"
+    }
+  ]
+}
