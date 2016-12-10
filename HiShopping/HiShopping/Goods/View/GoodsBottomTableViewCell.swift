@@ -11,7 +11,7 @@ import UIKit
 class GoodsBottomTableViewCell: UITableViewCell ,UITableViewDelegate,UITableViewDataSource{
 
    
-
+    //cell标识符
     let evaluateCellIdentifier = "evaluateCell"
     var topBarView = UIView()
     var goodsInfoButton = UIButton()
@@ -67,6 +67,7 @@ class GoodsBottomTableViewCell: UITableViewCell ,UITableViewDelegate,UITableView
         
     }
     func setFrame(){
+        //设置背景色方便分割线的显示
         self.topBarView.backgroundColor = HiTaoBackgroundColor
         self.goodsInfoButton.backgroundColor = .white
         self.goodsInfoButton.setTitleColor(.black, for: .normal)
@@ -89,6 +90,10 @@ class GoodsBottomTableViewCell: UITableViewCell ,UITableViewDelegate,UITableView
         self.allButton.setBackgroundImage(UIImage(named:"btn_nor_gray_140x50"), for: .normal)
         
     }
+    
+    /// 商品信息按钮响应方法
+    ///
+    /// - Parameter sender: 传递对象
     func infoBtn(_ sender:UIButton){
          self.goodsInfoButton.setTitleColor(customRed, for: .normal)
          self.evaluateButton.setTitleColor(.black, for: .normal)
@@ -96,6 +101,10 @@ class GoodsBottomTableViewCell: UITableViewCell ,UITableViewDelegate,UITableView
 
         
     }
+    
+    /// 宝贝详情按钮响应方法
+    ///
+    /// - Parameter sender: 传递对象
     func evaluateBtn(_ sender:UIButton){
         self.evaluateButton.setTitleColor(customRed, for: .normal)
         self.goodsInfoButton.setTitleColor(.black, for: .normal)
@@ -110,6 +119,7 @@ class GoodsBottomTableViewCell: UITableViewCell ,UITableViewDelegate,UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: evaluateCellIdentifier, for: indexPath)
+        //cell选中样式设置
         cell.selectionStyle = .none
         return cell
     }
