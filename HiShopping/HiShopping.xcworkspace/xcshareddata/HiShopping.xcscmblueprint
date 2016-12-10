@@ -1,21 +1,21 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "410612B1C2943C728C285C0C1289DE604F4B2105",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "60ED1C179EBFA825268CFD1C6CAD0ABBEEE660BD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : {
+    "60ED1C179EBFA825268CFD1C6CAD0ABBEEE660BD" : {
 
     },
-    "410612B1C2943C728C285C0C1289DE604F4B2105" : {
+    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : 9223372036854775807,
-    "410612B1C2943C728C285C0C1289DE604F4B2105" : 9223372036854775807
+    "60ED1C179EBFA825268CFD1C6CAD0ABBEEE660BD" : 9223372036854775807,
+    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D3A4C6CB-6473-4808-ABD0-465E45C54475",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : "..\/work\/WGZ\/WeSalary_Swift3.0",
-    "410612B1C2943C728C285C0C1289DE604F4B2105" : "HiTao\/"
+    "60ED1C179EBFA825268CFD1C6CAD0ABBEEE660BD" : "HiTao\/",
+    "d6f4998d-8093-9645-a14f-bfb1de8ae7b5++1575" : "..\/work\/WGZ\/WeSalary_Swift3.0"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "HiShopping",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.89\/svn\/APPdemo",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "410612B1C2943C728C285C0C1289DE604F4B2105"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60ED1C179EBFA825268CFD1C6CAD0ABBEEE660BD"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/kevin.chen@122.227.209.178:8889\/svn\/WX_IOS",

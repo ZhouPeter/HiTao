@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0D20F2C554F7EEF33BD83725 /* Pods_HiShopping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D933E9DD3C73AE9A8C51CA /* Pods_HiShopping.framework */; };
+		580973F11DFBD02E00340EB2 /* GoodsBottomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580973F01DFBD02E00340EB2 /* GoodsBottomTableViewCell.swift */; };
 		5818E1B31DC6DFE8007912A5 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818E1B21DC6DFE8007912A5 /* SetUpViewController.swift */; };
 		5818E1B51DC6E198007912A5 /* SetUpSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818E1B41DC6E198007912A5 /* SetUpSelectTableViewCell.swift */; };
 		5818E1B71DC6E1C4007912A5 /* SetUpSwtichTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818E1B61DC6E1C4007912A5 /* SetUpSwtichTableViewCell.swift */; };
 		5818E1B91DC6E1D7007912A5 /* SetUpDeleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818E1B81DC6E1D7007912A5 /* SetUpDeleteTableViewCell.swift */; };
 		5818E1BB1DC6EF7E007912A5 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818E1BA1DC6EF7E007912A5 /* NewViewController.swift */; };
+		58269A4D1DFBD9C40011A915 /* EvaluateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58269A4C1DFBD9C40011A915 /* EvaluateTableViewCell.swift */; };
 		5832F22F1DE2BC3F00F01695 /* LeftDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832F22E1DE2BC3F00F01695 /* LeftDrawerViewController.swift */; };
 		5832F2351DE2CB6800F01695 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5832F2321DE2CB6800F01695 /* LeftSlideViewController.m */; };
 		5832F2391DE2CCB800F01695 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 5832F2381DE2CCB800F01695 /* UIView_extra.m */; };
@@ -158,11 +160,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		580973F01DFBD02E00340EB2 /* GoodsBottomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsBottomTableViewCell.swift; sourceTree = "<group>"; };
 		5818E1B21DC6DFE8007912A5 /* SetUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
 		5818E1B41DC6E198007912A5 /* SetUpSelectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpSelectTableViewCell.swift; sourceTree = "<group>"; };
 		5818E1B61DC6E1C4007912A5 /* SetUpSwtichTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpSwtichTableViewCell.swift; sourceTree = "<group>"; };
 		5818E1B81DC6E1D7007912A5 /* SetUpDeleteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpDeleteTableViewCell.swift; sourceTree = "<group>"; };
 		5818E1BA1DC6EF7E007912A5 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		58269A4C1DFBD9C40011A915 /* EvaluateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluateTableViewCell.swift; sourceTree = "<group>"; };
 		5832F22E1DE2BC3F00F01695 /* LeftDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftDrawerViewController.swift; sourceTree = "<group>"; };
 		5832F2311DE2CB6800F01695 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
 		5832F2321DE2CB6800F01695 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
@@ -496,6 +500,8 @@
 				58773B821DC9D99C002A8A96 /* PayModeHeaderTableViewCell.swift */,
 				58E2C8141DCA0D0E007D4868 /* PayModeHeaderView.swift */,
 				583EBE111DCAC76400E4E48E /* PayModeTableViewCell.swift */,
+				580973F01DFBD02E00340EB2 /* GoodsBottomTableViewCell.swift */,
+				58269A4C1DFBD9C40011A915 /* EvaluateTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1099,6 +1105,7 @@
 				5899919E1DC2FDE200E64E1D /* TodayCheapViewController.swift in Sources */,
 				589991021DC2F65C00E64E1D /* PublicCollectionViewLayout.swift in Sources */,
 				589991761DC2FBBE00E64E1D /* ClassDetailTableViewCell.swift in Sources */,
+				58269A4D1DFBD9C40011A915 /* EvaluateTableViewCell.swift in Sources */,
 				589991A61DC2FDE200E64E1D /* PointBuyChildCollectionViewCell.swift in Sources */,
 				5899911D1DC2F83500E64E1D /* GoodsTableViewCell.swift in Sources */,
 				589991181DC2F83500E64E1D /* SpecSizeModel.swift in Sources */,
@@ -1113,6 +1120,7 @@
 				5899919B1DC2FDE200E64E1D /* ResultChildViewController.swift in Sources */,
 				588B2F421DD1C3C60010EDF7 /* CouponViewController.swift in Sources */,
 				5899919F1DC2FDE200E64E1D /* ViewController.swift in Sources */,
+				580973F11DFBD02E00340EB2 /* GoodsBottomTableViewCell.swift in Sources */,
 				589991601DC2FB3400E64E1D /* TableChildExampleViewController.swift in Sources */,
 				589991981DC2FDE200E64E1D /* MenuContentViewController.swift in Sources */,
 				589990FC1DC2F60D00E64E1D /* UIViewController+Extension.swift in Sources */,

@@ -17,7 +17,7 @@ class GoodsDetailsViewControlleabr: UIViewController,UITableViewDelegate,UITable
     var thumbs :[MWPhoto] = []
     let detailCellIdentifier = "detailCell"
     let selectCellIdentifier = "selectCell"
-
+    let bottomCellIdentifier = "bottomCell"
     var tableView = UITableView(frame: CGRect.zero, style: .grouped)
     var bannerView = SDCycleScrollView()
     var topView  = DetailsTopView()
@@ -141,8 +141,10 @@ class GoodsDetailsViewControlleabr: UIViewController,UITableViewDelegate,UITable
             make.bottom.equalToSuperview().offset(-40)
             make.top.equalToSuperview().offset(64+35)
         }
+        self.tableView.separatorStyle = .none
         self.tableView.register(GoodsTableViewCell.self, forCellReuseIdentifier: detailCellIdentifier)
         self.tableView.register(GoodsSelectTableViewCell.self, forCellReuseIdentifier: selectCellIdentifier)
+        self.tableView.register(GoodsBottomTableViewCell.self, forCellReuseIdentifier: bottomCellIdentifier)
         
     }
     //设置轮播图
@@ -214,7 +216,7 @@ class GoodsDetailsViewControlleabr: UIViewController,UITableViewDelegate,UITable
 
     //MARK:- UITableViewDataSource
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 3
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return 1
@@ -226,8 +228,12 @@ class GoodsDetailsViewControlleabr: UIViewController,UITableViewDelegate,UITable
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: detailCellIdentifier, for: indexPath)
             return cell
-        default:
+        case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: selectCellIdentifier, for: indexPath)
+            return cell
+        default :
+            let cell = tableView.dequeueReusableCell(withIdentifier: bottomCellIdentifier, for: indexPath)
+            cell.selectionStyle = .none
             return cell
         }
        
@@ -240,8 +246,10 @@ class GoodsDetailsViewControlleabr: UIViewController,UITableViewDelegate,UITable
         switch indexPath.section {
         case 0:
             return  110
-        default:
+        case 1:
             return 30
+        default :
+            return 265
         }
     }
     
